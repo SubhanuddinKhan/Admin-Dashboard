@@ -21,7 +21,7 @@ body{
 
 }
 
-.container{
+.container_b{
     position: relative;
     width: 100%;
     border: 1px solid black;
@@ -98,6 +98,8 @@ body{
 .navigation ul li a .icon ion-icon{
     font-size: 1.75em;
 }
+
+
 
 .navigation ul li a .title{
     position: relative;
@@ -451,6 +453,91 @@ body{
 .recentCustomers table tr:hover td h4 span {
     color: var(--white);
 }
+
+/* CRUD Table  */
+
+
+.crud__data table tbody tr:hover{
+    background: var(--blue);
+    color: var(--white);
+    /* font-weight: 600; */
+    
+}
+
+.crud__data table tr:hover a{
+    background: var(--blue);
+    color: var(--white);
+}
+
+
+
+
+.crud__data td {
+    padding: 12px 0px 0px 0px;
+}
+
+.crud__data ion-icon{
+    /* color: var(--black1); */
+    font-size: 1.3em;
+    padding: 5px 5px;
+    font-weight: bold;
+    
+}
+
+.crud__data a   ion-icon{
+    /* color: var(--black1); */
+    font-size: 1.3em;
+    padding: 5px 5px;
+    font-weight: bold;
+    text-decoration: none;
+    
+    
+}
+
+.crud__data a:hover ion-icon {
+    background-color: var(--white);
+    border-radius: 19px;
+    padding: 5px 5px;
+    color: var(--blue);
+}
+
+.register__icon {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.register__icon ion-icon{
+    font-size: 19.3em;
+    color: var(--blue);
+}
+
+.register__data{
+    text-align: center;
+}
+
+.register__data h1 {
+    color: var(--blue);
+    font-weight: 600;
+}
+
+.register__form{
+    width: 600px;
+    margin: 0 auto;
+}
+.register__form input{
+    margin: 16px 0px;
+}
+
+.register__form button{
+    width: 600px;
+    margin: 0 auto; 
+}
+
+
+
+
+
+
 
 /* Responsive Design */
 
